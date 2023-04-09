@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(151, 163, 107);
+
+
+
+}
+.container h1{
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    
+    
+    color: white;
+    
+}
+
+body {
+    /* background: linear-gradient(#A9F1DF ,#FFBBBB) */
+
+    background-color: rgb(170, 170, 170);
+}
+.weather span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container {
+    background: linear-gradient(#C33764 ,#1D2671);
+    /* background: linear-gradient(145deg, #6270c6, #26869c); */
+    /* background: linear-gradient(#A9F1DF ,#FFBBBB); */
+    /* background: url(images/CtmQ.gif); */
+    overflow: hidden;
+
+    width: 90%;
+    max-width: 450px;
+    margin: 100px auto;
+    padding: 40px 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+
+    align-items: center;
+}
+
+.search input {
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    flex: 1;
+    margin-right: 16px;
+    height: 60px;
+    
+
+
+
+}
+
+.search button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+
+
+}
+.search button:hover{
+    border: 2px solid black;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.temp {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.city {
+    font-size: 50px;
+    font-weight: 450;
+    margin-top: -10px;
+    color: rgb(34, 231, 231);
+    
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    text-align: left;
+    align-items: center;
+
+}
+
+.col img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.col p {
+    font-weight: bold;
+}
+
+.humidity,
+.wind {
+    font-size: 25px;
+    font-weight: bold;
+}
